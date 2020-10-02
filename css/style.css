@@ -1,0 +1,51 @@
+.container{
+    width: 652px;
+    height: 236px;
+    background-color: aqua;
+    border-radius: 10px;
+}
+/*buttons nav css*/
+.buttons-container{
+    display: flex;
+}
+.btn-tab{
+    width: 50%;
+    height: 48px;
+}
+
+.btn-icons{
+    width: 15px;
+    height: 15px;
+    
+}
+/*timmer tab css*/
+
+.stop-watch-tab{
+    
+    height: 139px;
+    background-color: blue;
+    padding-left:50px;
+    display: none;
+    
+}
+.timer-tab{
+    height: 139px;
+    background-color: red;
+    display: none;
+    
+}
+.size-100{
+    font-size: 100px;
+}
+#sub-latter{
+font-size: 25px;
+padding-right: 15px;
+}
+.part-second{
+    font-size: 31px;
+
+}
+.active{
+    display: block;
+}
+
