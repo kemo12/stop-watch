@@ -9,13 +9,18 @@
 <body>
 <div class="container">
     <div class="buttons-container">
-        <button class="btn-tab"><img class="btn-icons" src="./images/timer.svg">TIMER</button>
-        <button class="btn-tab"><img class="btn-icons" src="./images/stopWatch.svg">STOPWATCH</button>
+        <button class="btn-tab stopWatchButton active-btn"><img class="btn-icons" src="./images/timer.svg">TIMER</button>
+        <button class="btn-tab timerTabButton "><img class="btn-icons" src="./images/stopWatch.svg">STOPWATCH</button>
     </div>
     <div class="tabs-contaianer">
-    <div class="stop-watch-tab"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
-   <div class="timer-tab"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
+    <div class="tab timer-tab active"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
+   <div class="tab stop-watch-tab"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
+</div>
+<div class="footer-container">
+    <button class="start-btn footer-btn">Start</button>
+    <button class="rest footer-btn">RESET</button>
 </div>
 </div>
+<script src="./js/dom.js"></script>
 </body>
 </html>

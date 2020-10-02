@@ -1,9 +1,14 @@
 .container{
     width: 652px;
     height: 236px;
-    background-color: aqua;
+    background-color: #fffff;
     border-radius: 10px;
+    border:1px solid black; 
 }
+btn {
+    background:  #f3e4fa;;
+  }
+  
 /*buttons nav css*/
 .buttons-container{
     display: flex;
@@ -18,9 +23,11 @@
     height: 15px;
     
 }
-/*timmer tab css*/
+.active-btn{
+    background-color: #bebebe;
+}
 
-.stop-watch-tab{
+.tab{
     
     height: 139px;
     background-color: blue;
@@ -48,4 +55,12 @@ padding-right: 15px;
 .active{
     display: block;
 }
-
+.footer-btn{
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+}
+.start-btn{
+    background-color:#1b5fb9 ;
+}
