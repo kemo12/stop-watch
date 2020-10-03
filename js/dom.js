@@ -32,3 +32,18 @@ document.querySelector('.stop-stopwatch').addEventListener('click',()=>{
     document.querySelector('.stop-stopwatch').classList.add('displynone');
 
 });
+document.querySelector('.reset-stopwatch').addEventListener('click',()=>{
+    document.querySelector('.reset-stopwatch').classList.add('displynone');
+    document.querySelector('.stop-stopwatch').classList.add('displynone');
+    document.querySelector('.start-stopwatch').classList.remove('displynone');
+
+});
+document.querySelector('.timmerCounterTab').addEventListener('click',()=>{
+    document.querySelector('.timmerInputTab').classList.add('active');
+    document.querySelector('.timmerCounterTab').classList.remove('active');
+    document.querySelector('.start-timer').disabled =false;
+    location.reload(true)
+
+});
+
+

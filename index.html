@@ -13,15 +13,28 @@
         <button class="btn-tab  stopWatchButton "><img class="btn-icons" src="./images/stopWatch.svg">STOPWATCH</button>
     </div>
     <div class="tabs-contaianer">
-    <div class="tab timer-tab active displynone"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
-   <div class="tab stop-watch-tab displynone"><span class="size-100  minutes">00</span><sub id="sub-latter">h</sub><span class="size-100 seconds">00</span><sub id="sub-latter">m</sub><span class="size-100  hundredths">00</span><sub id="sub-latter">s</sub></div>
+    <div class="tab timer-tab active displynone">
+        <div class="timmerCounterTab  displynone">
+            <span class="size-100 timerMinutes">00</span><sub class="sub-latter">m</sub>
+            <span class="size-100 timerSeconds">00</span><sub class="sub-latter timmerMinuts">s</sub>
+        </div>
+        <div class="timmerInputTab active displynone">
+        <input type="number" class="mintuesInput input " placeholder="minutes" min="0">
+        <input type="number" class="secondInput input "placeholder="seconds" min="0">
+
+        </div>
+        
+    </div>
+   <div class="tab stop-watch-tab displynone">
+       <span class="size-100  minutes">00</span><sub class="sub-latter ">m</sub>
+       <span class="size-100 seconds">00</span><sub class="sub-latter">s</sub>
+       <span class="size-100  hundredths">00</span>
+    </div>
 </div>
 <div class="footerTabs">
 
 <div class="timer-buttons-container displynone active">
-    <button class="start footer-btn">Start</button>
-    <button class="stop footer-btn">stop</button>
-    <button class="reset footer-btn">RESET</button>
+    <button class="start-timer footer-btn">Start</button>
 </div>
 <div class="stopwatch-buttons-container displynone">
     <button class="start-stopwatch footer-btn">Start</button>
@@ -32,7 +45,7 @@
 </div>
 </div>
 <script src="./js/stopwatch.js"></script>
-
+<script src="./js/timer.js"></script>
 <script src="./js/dom.js"></script>
 </body>
 </html>
