@@ -9,18 +9,30 @@
 <body>
 <div class="container">
     <div class="buttons-container">
-        <button class="btn-tab stopWatchButton active-btn"><img class="btn-icons" src="./images/timer.svg">TIMER</button>
-        <button class="btn-tab timerTabButton "><img class="btn-icons" src="./images/stopWatch.svg">STOPWATCH</button>
+        <button class="btn-tab timerTabButton active-btn"><img class="btn-icons" src="./images/timer.svg">TIMER</button>
+        <button class="btn-tab  stopWatchButton "><img class="btn-icons" src="./images/stopWatch.svg">STOPWATCH</button>
     </div>
     <div class="tabs-contaianer">
-    <div class="tab timer-tab active"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
-   <div class="tab stop-watch-tab"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
+    <div class="tab timer-tab active displynone"><span class="tens-hours size-100">5</span><span class="size-100">9</span><sub id="sub-latter">h</sub><span class="size-100">5</span><span class="size-100">9</span><sub id="sub-latter">m</sub><span class="size-100">5</span><span class="size-100">8</span><sub id="sub-latter">s</sub></div>
+   <div class="tab stop-watch-tab displynone"><span class="size-100  minutes">00</span><sub id="sub-latter">h</sub><span class="size-100 seconds">00</span><sub id="sub-latter">m</sub><span class="size-100  hundredths">00</span><sub id="sub-latter">s</sub></div>
 </div>
-<div class="footer-container">
-    <button class="start-btn footer-btn">Start</button>
-    <button class="rest footer-btn">RESET</button>
+<div class="footerTabs">
+
+<div class="timer-buttons-container displynone active">
+    <button class="start footer-btn">Start</button>
+    <button class="stop footer-btn">stop</button>
+    <button class="reset footer-btn">RESET</button>
+</div>
+<div class="stopwatch-buttons-container displynone">
+    <button class="start-stopwatch footer-btn">Start</button>
+    <button class="stop-stopwatch footer-btn displynone">stop</button>
+    <button class="reset-stopwatch footer-btn displynone">RESET</button>
+    
 </div>
 </div>
+</div>
+<script src="./js/stopwatch.js"></script>
+
 <script src="./js/dom.js"></script>
 </body>
 </html>

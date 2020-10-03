@@ -26,19 +26,21 @@ btn {
 .active-btn{
     background-color: #bebebe;
 }
-
+.displynone{
+    display: none;
+}
 .tab{
     
     height: 139px;
     background-color: blue;
     padding-left:50px;
-    display: none;
+    
     
 }
 .timer-tab{
     height: 139px;
     background-color: red;
-    display: none;
+    
     
 }
 .size-100{
